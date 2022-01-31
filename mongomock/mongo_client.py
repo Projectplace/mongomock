@@ -104,9 +104,9 @@ class MongoClient(object):
     def server_info(self):
         # Keep the version in sync with docker-compose.yml and travis.yml.
         return {
-            'version': '4.4.0',
+            'version': '5.0.5',
             'sysInfo': 'Mock',
-            'versionArray': [4, 4, 0, 0],
+            'versionArray': [5, 0, 5, 0],
             'bits': 64,
             'debug': False,
             'maxBsonObjectSize': 16777216,
